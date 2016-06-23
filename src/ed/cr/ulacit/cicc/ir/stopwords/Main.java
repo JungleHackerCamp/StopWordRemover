@@ -21,6 +21,8 @@ public class Main {
     public static void main(String[] args) {
         
         
+        System.out.println(ArchivosTxt.leerArchivo());
+        
         String texto = "Hola, para esto es un texto de prueba que vamos a quitarle todos. Los stops words para dejar solo las palabras relevantes que se encuentran en este texto para";
         
         // Filtros ------ Limpio caracteres especiales
